@@ -29,14 +29,11 @@ int main()
 	std::cout << "\n==========  STD::LIST ==========" << std::endl;
     std::list<int> mlist;
 
-    // 栈的 push 对应 list 的 push_back
     mlist.push_back(5);
     mlist.push_back(17);
 
-    // 栈的 top 对应 list 的 back (获取尾部元素)
     std::cout << "Top element: " << mlist.back() << std::endl;
 
-    // 栈的 pop 对应 list 的 pop_back (移除尾部元素)
     mlist.pop_back();
 
     std::cout << "Size after pop: " << mlist.size() << std::endl;
